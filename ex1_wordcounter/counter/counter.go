@@ -1,11 +1,9 @@
 package counter
 
 import "strings"
-import "sort"
 
 func WordCounter(input string) map[string]int {
 	words := strings.Split(input, " ")
-	sort.Strings(words)
 
 	hashmap := make(map[string]int)
 

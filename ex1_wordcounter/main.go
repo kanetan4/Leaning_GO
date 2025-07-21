@@ -9,14 +9,22 @@ package main
 
 import "fmt"
 import "os"
+import "sort"
 import "wordcounter/counter"
 
 func main() {
 	var input = os.Args[1]
-	ans := counter.WordCounter(input)
+	hashmap := counter.WordCounter(input)
 
-	for key, value := range ans {
-		fmt.Println(key, " => ", value)
+	keys := make([]string, 0)
+	for key, _ := range hashmap {
+		keys = append(keys, key)
+	}
+
+	sort.Strings(keys)
+
+	for _, key := range keys {
+		fmt.Println(key, " => ", hashmap[key])
 	}
 
 }
