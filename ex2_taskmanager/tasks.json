@@ -1,0 +1,22 @@
+[
+ {
+  "Title": "buy groceries",
+  "Priority": 3,
+  "Completion": true
+ },
+ {
+  "Title": "call clarice",
+  "Priority": 1,
+  "Completion": false
+ },
+ {
+  "Title": "eat own shit",
+  "Priority": 2,
+  "Completion": true
+ },
+ {
+  "Title": "be gay",
+  "Priority": 2,
+  "Completion": true
+ }
+]
