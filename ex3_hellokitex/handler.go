@@ -10,5 +10,5 @@ type HelloServiceImpl struct{}
 // SayHello implements the HelloServiceImpl interface.
 func (s *HelloServiceImpl) SayHello(ctx context.Context, name string) (resp string, err error) {
 	// TODO: Your code here...
-	return "Hello " + name, nil
+	return "Hello siall " + name, nil
 }
