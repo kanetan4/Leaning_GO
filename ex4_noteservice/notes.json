@@ -1,9 +1,9 @@
 [
  {
-  "id": 1754384540440521000,
+  "id": 1,
   "user": "kane",
-  "title": "From user-service",
-  "content": "Learning Kitex",
-  "create_time": 1754384540440521000
+  "title": "Test Note",
+  "content": "This is a test",
+  "create_time": 0
  }
 ]
